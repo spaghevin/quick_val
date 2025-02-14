@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
+    background-size:cover;
 }
 
 html, body {
@@ -11,9 +12,7 @@ html, body {
     width: 100%;
     height: 100%;
 }
-body {
-    background-size:cover;
-}
+
 #wrapper {
     display: flex;
     align-items: center;
@@ -34,8 +33,11 @@ body {
 
 @media  (max-width: 430px) {
     body {
+        background-image: url('https://i.pinimg.com/736x/9f/88/e7/9f88e746fcd18239a2dffcf6945af930.jpg');
+        background-repeat: no-repeat;
+        background-color: rgba(255,255,255,0.6);
+        background-blend-mode: lighten;
         background-size:cover;
-        
     }
     #wrapper {
         display: flex;
@@ -51,6 +53,8 @@ body {
         margin: 12px;
         padding: 12px;
         margin-top: 200px;
+        background-color: rgba(255,255,255,.6);
+
     }
     
 }
