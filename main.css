@@ -5,29 +5,34 @@ body {
     background-blend-mode: lighten;
 }
 
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:0px auto;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
+
+
 * {font-family: Orbitron}
 @media  (max-width: 430px) {
     body {
         background-size:cover;
+        
     }
-    #container {
+    #wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin:0px auto;
- 
+        margin:8px;
+        padding: 8px;
+        height: 100%;
     }
     #entry_form {
         text-align: center;
         border: 3px solid black;
         flex: auto;
+        margin: 12px;
+        padding: 12px;
     }
-  
-    
+
 }
