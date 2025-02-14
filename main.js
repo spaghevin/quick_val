@@ -1,5 +1,6 @@
-document.getElementById("main_submit").addEventListener("click", function() {
-    location.href = "question.html"; // Redirects to static.html
+document.getElementById("val_submit").addEventListener("click", function() {
+    document.querySelector('#gif').style.display = 'flex';
+
 });
 
 

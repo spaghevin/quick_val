@@ -10,13 +10,14 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
 }
 
 
 * {font-family: Orbitron}
 @media  (max-width: 430px) {
     body {
-        background-size:cover;
+        background-size:contain;
         
     }
     #wrapper {
@@ -25,7 +26,6 @@ html, body {
         justify-content: center;
         margin:8px;
         padding: 8px;
-        height: 100%;
     }
     #entry_form {
         text-align: center;
@@ -34,5 +34,5 @@ html, body {
         margin: 12px;
         padding: 12px;
     }
-
+    
 }
