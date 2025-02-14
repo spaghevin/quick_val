@@ -12,12 +12,29 @@ html, body {
     width: 100%;
     height: 100%;
 }
-
+body {
+    background-size:cover;
+    
+}
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:8px;
+    padding: 8px;
+}
+#entry_form {
+    text-align: center;
+    border: 3px solid black;
+    flex: auto;
+    margin: 12px;
+    padding: 12px;
+}
 
 * {font-family: Orbitron}
 @media  (max-width: 430px) {
     body {
-        background-size:contain;
+        background-size:cover;
         
     }
     #wrapper {
